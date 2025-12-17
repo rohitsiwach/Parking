@@ -4,6 +4,8 @@ import { authOptions } from "@/lib/auth";
 import { NextResponse } from "next/server";
 import { startOfDay, endOfDay } from "date-fns";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const dateStr = searchParams.get("date");

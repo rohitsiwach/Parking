@@ -1,85 +1,42 @@
-[00:00:01.195] Server  LOG     
-[00:00:01.196] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:01.196] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:01.197] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:01.197] Server  LOG     
-[00:00:01.197] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:01.197] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:01.198] Server  LOG     
-[00:00:01.493] Server  LOG      ✓ Ready in 995ms
-[00:00:10.770] Server  ERROR    ⨯ ./src/app/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at lt (C:\Users\Siwach\Desktop\Parking\node_modules\tailwindcss\dist\lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-
-
-[00:00:12.106] Browser ERROR   uncaughtError: Error: ./src/app/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at lt (C:\Users\Siwach\Desktop\Parking\node_modules\tailwindcss\dist\lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-
-
-[00:00:12.347] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at lt (C:\Users\Siwach\Desktop\Parking\node_modules\tailwindcss\dist\lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:12.516] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at lt (C:\Users\Siwach\Desktop\Parking\node_modules\tailwindcss\dist\lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
-[00:00:50.185] Browser ERROR   ./src/app/globals.css
-Error evaluating Node.js code
-Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
-    [at lt (C:\Users\Siwach\Desktop\Parking\node_modules\tailwindcss\dist\lib.js:38:1643)]
-    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
-    [at <anonymous>]
-    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
-    [at process.processTicksAndRejections (node:internal/process/task_queues:105:5)]
-
-Import trace:
-  Client Component Browser:
-    ./src/app/globals.css [Client Component Browser]
-    ./src/app/layout.tsx [Server Component]
+[00:00:01.428] Server  LOG      ✓ Ready in 933ms
+[00:00:06.359] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\@prisma\client\runtime\client.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.360] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[root-of-the-server]__a06ab292._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.363] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.389] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\node_modules_next_ed167b02._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.391] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.392] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.393] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\load-components.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.397] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.398] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.401] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.415] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:06.418] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:00:07.401] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\@prisma\client\runtime\client.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.402] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[root-of-the-server]__a06ab292._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.402] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.403] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\node_modules_next_ed167b02._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.404] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.404] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.405] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\load-components.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.405] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.406] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.406] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.407] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.409] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
+[00:00:07.494] Browser ERROR   [next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error Unexpected token '<', "<!DOCTYPE "... is not valid JSON {"error":{"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","name":"SyntaxError","stack":"SyntaxError: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"},"message":"Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON","url":"/api/auth/session"}
+[00:00:46.142] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\@prisma\client\runtime\client.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.143] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[root-of-the-server]__a06ab292._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.144] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.144] Server  ERROR   C:\Users\Siwach\Desktop\Parking\.next\dev\server\chunks\node_modules_next_ed167b02._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.145] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.145] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\require.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.146] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\load-components.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.146] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.147] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.148] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.148] Server  ERROR   C:\Users\Siwach\Desktop\Parking\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:46.150] Server  ERROR    ⨯ PrismaClientConstructorValidationError: Using engine type "client" requires either "adapter" or "accelerateUrl" to be provided to PrismaClient constructor.
+Read more at https://pris.ly/d/client-constructor
