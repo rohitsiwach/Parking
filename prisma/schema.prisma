@@ -1,0 +1,34 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String        @id @default(cuid())
+  name          String?
+  email         String        @unique
+  password      String
+  reservations  Reservation[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}
+
+model ParkingSpace {
+  id            String        @id @default(cuid())
+  name          String        @unique
+  reservations  Reservation[]
+}
+
+model Reservation {
+  id             String       @id @default(cuid())
+  userId         String
+  parkingSpaceId String
+  date           DateTime
+  user           User         @relation(fields: [userId], references: [id])
+  parkingSpace   ParkingSpace @relation(fields: [parkingSpaceId], references: [id])
+
+  @@unique([parkingSpaceId, date])
+}
